@@ -1,0 +1,18 @@
+Calculadora Stickers
+ingresar ancho de Sticker
+ingresar alto de sticker
+multiplicar ancho por alto
+mostrar el resultado de ancho x alto en cm
+Esto muestra los centimetros cuadrados por sticker
+
+Calcular centimetros cuadrados del material
+ingresar ancho de Sticker
+ingresar alto de sticker
+multiplicar ancho por alto
+mostrar el resultado de ancho x alto en cm
+Esto muestra los centimetros cuadrados por sticker
+
+Calcular stickers por pliego
+resultado cm2 material
+dividido
+resultado cm2 stickers

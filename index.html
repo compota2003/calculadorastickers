@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora Stickers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="js/scripts.js"></script>
+  </head>
+
+  <body>
+    <div class="card-group">
+      <div class="card">
+        
+        <div class="card-body">
+          <h4>Ingresar medida de stickers en centimetros</h4>
+          <label for="ancho">Ancho ==> </label>
+          <input type="number" id="ancho" />
+          <br />
+          <br />
+          <label for="alto">Alto ==> </label>
+          <input type="number" id="alto" />
+          <br />
+          <br />
+          <button onclick="calcular('mult');">Multi</button>
+
+          <br />
+          <br />
+          <label for="result">CM2 sticker ==> </label>
+          <input type="number" readonly="true" id="result" />
+        </div>
+      </div>
+      <div class="card">
+     
+        <div class="card-body">
+
+
+          <h4>Ingresar medida del material</h4>
+          <label for="ancho2">Ancho ==> </label>
+          <input type="number" id="ancho2" />
+          <br />
+          <br />
+          <label for="alto2">Alto ==> </label>
+          <input type="number" id="alto2" />
+          <br />
+          <br />
+          <button onclick="calcular2('mult2');">Multi</button>
+    
+          <br />
+          <br />
+          <label for="result2">Cm2 Material ==> </label>
+          <input type="number" readonly="true" id="result2" />
+        </div>
+      </div>
+      <div class="card">
+
+        <div class="card-body">
+          
+          <!--Esto deberia calcularse automaticamente tomando 
+            los resultados de las cuentas anteriores, sin tener que cargar datos-->
+
+          <h4>Calcular stickers por pliego</h4>
+          <label for="cmMaterial">cm2 material ==> </label>
+          <input type="number" id="cmMaterial" />
+          <br />
+          <br />
+          <label for="cmSticker">cm2 stickers ==> </label>
+          <input type="number" id="cmSticker" />
+          <br />
+          <br />
+    
+          <button onclick="calcular3('div');">Div</button>
+    
+          <br />
+          <br />
+          <label for="result3">stickers por pliego ==> </label>
+          <input type="number" readonly="true" id="result3" />
+        </div>
+      </div>
+    </div>
+
+<!-- Calculadora creada sin bootstrap
+    <div>
+      <h4>Ingresar medida de stickers en centimetros</h4>
+      <label for="ancho">Ancho ==> </label>
+      <input type="number" id="ancho" />
+      <br />
+      <br />
+      <label for="alto">Alto ==> </label>
+      <input type="number" id="alto" />
+      <br />
+      <br />
+      <button onclick="calcular('mult');">Multi</button>
+
+      <br />
+      <br />
+      <label for="result">CM2 sticker ==> </label>
+      <input type="number" readonly="true" id="result" />
+    </div>
+
+    <div>
+      <h4>Ingresar medida del material</h4>
+      <label for="ancho2">Ancho ==> </label>
+      <input type="number" id="ancho2" />
+      <br />
+      <br />
+      <label for="alto2">Alto ==> </label>
+      <input type="number" id="alto2" />
+      <br />
+      <br />
+      <button onclick="calcular2('mult2');">Multi</button>
+
+      <br />
+      <br />
+      <label for="result2">Cm2 Material ==> </label>
+      <input type="number" readonly="true" id="result2" />
+    </div>
+
+    <div>
+      <h4>Calcular stickers por pliego</h4>
+      <label for="cmMaterial">cm2 material ==> </label>
+      <input type="number" id="cmMaterial" />
+      <br />
+      <br />
+      <label for="cmSticker">cm2 stickers ==> </label>
+      <input type="number" id="cmSticker" />
+      <br />
+      <br />
+
+      <button onclick="calcular3('div');">Div</button>
+
+      <br />
+      <br />
+      <label for="result3">stickers por pliego ==> </label>
+      <input type="number" readonly="true" id="result3" />
+    </div>
+    -->
+  </body>
+</html>
